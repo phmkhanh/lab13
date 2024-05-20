@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boostrap core css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- custom styles for this template -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Carousel Page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Carousel</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarcollapse"
+            aria-controls="navbarcollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarcollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-img1">
+          <img
+            src="png(40)_cr_horizontal.webp"
+            class="d-block w-100"
+            alt="bo-anh-chup-nui-phu-si-trong-7-nam-cua-nhiep-anh-gia-nhat-ban-ivivu-2"
+          />
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example Headline</h1>
+              <p>
+                some representative placeholder content for the first slide of
+                the carousel
+              </p>
+              <p>
+                <a href="#" class="btn btn-lg btn-primary">Sign up today</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-img2">
+          <img
+            src="png(40)_cr_horizontal.webp"
+            class="d-block w-100"
+            alt="hoa-anh-tuc"
+          />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline</h1>
+              <p>
+                some representative placeholder content for the second slide of
+                the carousel
+              </p>
+              <p>
+                <a href="#" class="btn btn-lg btn-primary">Learn more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-img3">
+          <img
+            src="png(40)_cr_horizontal.webp"
+            class="d-block w-100"
+            alt="280px-Cerisier_du_Japon_Prunus_serrulata"
+          />
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure</h1>
+              <p>
+                some representative placeholder content for the third slide of
+                the carousel
+              </p>
+              <p>
+                <a href="#" class="btn btn-lg btn-primary">browse gallery</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- footer -->
+    <footer class="p-5 mt-5 text-center text-dark bg-white position-relative">
+      <div class="container d-flex align-items-center">
+        <div class="fs-6">&copy; 2017-2021 Company, Inc</div>
+        <a href="#" class="px-2">Privacy</a>
+        <a href="#" class="me-auto">terms</a>
+        <a href="#" class="posiotion-absolute bottom-0 end-0 me-2"
+          >Back to too</a
+        >
+      </div>
+    </footer>
+    <!-- custom styles for this template -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
